@@ -6,7 +6,6 @@ output:
   xaringan::moon_reader:
     lib_dir: libs
     nature:
-      countdown: 60000
       highlightStyle: github
       highlightLines: true
       incremental: true
@@ -31,13 +30,24 @@ knitr::include_graphics("https://es.r4ds.hadley.nz/diagrams_w_text_as_path/es/da
 ---
 
 # Tipos de datos en R
+.pull-left[
 
 - Numeric
+
 - Integer
+
 - Character
-- Complex 
-- Logical (True/False)
+
+- Complex
+
+- Logical 
+
 - Factor (categorias)
+
+]
+
+.pull-right[
+![Saw](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd5ngkkf53wl41.cloudfront.net%2Ftutorials%2Fr-programming%2Fr-datatypes-vectors.png&f=1&nofb=1)]
 
 ---
 
@@ -72,9 +82,7 @@ knitr::include_graphics("tidy.png")
 knitr::include_graphics("https://pfern.github.io/OSODOS/gitbook/SEMANTICS/journal.pcbi.1005097.g001.PNG")
 ```
 
----- 
-class: center, middle, inverse
+---
+class: inverse, center, middle
 
 # Vamos a R
-
-----

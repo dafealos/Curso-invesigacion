@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <meta name="author" content="I.A. Daniel Alvarado" />
     <meta name="date" content="2020-11-06" />
+    <script src="libs/header-attrs-2.5/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
   </head>
@@ -34,13 +35,24 @@ Modelo de ciencia de datos
 ---
 
 # Tipos de datos en R
+.pull-left[
 
 - Numeric
+
 - Integer
+
 - Character
-- Complex 
-- Logical (True/False)
+
+- Complex
+
+- Logical 
+
 - Factor (categorias)
+
+]
+
+.pull-right[
+![Saw](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd5ngkkf53wl41.cloudfront.net%2Ftutorials%2Fr-programming%2Fr-datatypes-vectors.png&amp;f=1&amp;nofb=1)]
 
 ---
 
@@ -67,12 +79,10 @@ background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%
 
 ![](https://pfern.github.io/OSODOS/gitbook/SEMANTICS/journal.pcbi.1005097.g001.PNG)&lt;!-- --&gt;
 
----- 
-class: center, middle, inverse
+---
+class: inverse, center, middle
 
 # Vamos a R
-
-----
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
@@ -148,51 +158,6 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
   }
 })();
-(function(time) {
-  var d2 = function(number) {
-    return ('0' + number).slice(-2); // left-pad 0 to minutes/seconds
-  },
-
-  time_format = function(total) {
-    var secs = Math.abs(total) / 1000;
-    var h = Math.floor(secs / 3600);
-    var m = Math.floor(secs % 3600 / 60);
-    var s = Math.round(secs % 60);
-    var res = d2(m) + ':' + d2(s);
-    if (h > 0) res = h + ':' + res;
-    return res;  // [hh:]mm:ss
-  },
-
-  slide_number_div = function(i) {
-    return document.getElementsByClassName('remark-slide-number').item(i);
-  },
-
-  current_page_number = function(i) {
-    return slide_number_div(i).firstChild.textContent;  // text "i / N"
-  };
-
-  var timer = document.createElement('span'); timer.id = 'slide-time-left';
-  var time_left = time, k = slideshow.getCurrentSlideIndex(),
-      last_page_number = current_page_number(k);
-
-  setInterval(function() {
-    time_left = time_left - 1000;
-    timer.innerHTML = ' ' + time_format(time_left);
-    if (time_left < 0) timer.style.color = 'red';
-  }, 1000);
-
-  slide_number_div(k).appendChild(timer);
-
-  slideshow.on('showSlide', function(slide) {
-    var i = slide.getSlideIndex(), n = current_page_number(i);
-    // reset timer when a new slide is shown and the page number is changed
-    if (last_page_number !== n) {
-      time_left = time; last_page_number = n;
-      timer.innerHTML = ' ' + time_format(time); timer.style.color = null;
-    }
-    slide_number_div(i).appendChild(timer);
-  });
-})(60000);
 // adds .remark-code-has-line-highlighted class to <pre> parent elements
 // of code chunks containing highlighted lines with class .remark-code-line-highlighted
 (function(d) {
