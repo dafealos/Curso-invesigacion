@@ -73,7 +73,7 @@ knitr::include_graphics("https://pfern.github.io/OSODOS/gitbook/SEMANTICS/journa
 ```
 
 ---- 
-class: center, middle
+class: center, middle, inverse
 
 # Vamos a R
 
