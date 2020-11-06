@@ -1,6 +1,6 @@
 ---
 title: "Investigación Reproducible en R"
-author: "I.A. Daniel Alvarado"
+author: "[I.A. Daniel Alvarado](https://dafealos.netlify.app)"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
@@ -30,24 +30,31 @@ knitr::include_graphics("https://es.r4ds.hadley.nz/diagrams_w_text_as_path/es/da
 ---
 
 # Tipos de datos en R
+
 .pull-left[
 
 - Numeric
 
+
 - Integer
+
 
 - Character
 
+
 - Complex
+
 
 - Logical 
 
-- Factor (categorias)
 
+- Factor (categorias)
 ]
 
 .pull-right[
 ![Saw](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd5ngkkf53wl41.cloudfront.net%2Ftutorials%2Fr-programming%2Fr-datatypes-vectors.png&f=1&nofb=1)]
+
+
 
 ---
 
@@ -86,3 +93,5 @@ knitr::include_graphics("https://pfern.github.io/OSODOS/gitbook/SEMANTICS/journa
 class: inverse, center, middle
 
 # Vamos a R
+
+![Bye](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2Fl2JhBpEAO8wxCE1Fe%2Fgiphy.gif&f=1&nofb=1)
