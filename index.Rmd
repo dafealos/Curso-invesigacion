@@ -12,7 +12,12 @@ output:
       countIncrementalSlides: true
       encoding: "UTF-8"
 ---
-
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.path = 'assets/chunks/', cache.path = "assets/cache/", dpi = 300)
+library(tidyverse)
+theme_set(theme_grey(base_size = 16))
+library(emo)
+```
 class: inverse, center, middle
 
 # Datos
@@ -109,7 +114,7 @@ class: center, middle, inverse
 background-size: 55px
 background-position: 9% 15%
 
-# Gracias
+# Gracias `r emo::ji("smile")`
 
 ### Esta presentacion ha sido creada con [xaringan](https://github.com/yihui/xaringan) y [R Markdown](https://rmarkdown.rstudio.com/)
 
