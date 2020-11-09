@@ -13,9 +13,7 @@ output:
       encoding: "UTF-8"
 ---
 ```{r global_options, include=FALSE}
-knitr::opts_chunk$set(fig.path = 'assets/chunks/', cache.path = "assets/cache/", dpi = 300)
 library(tidyverse)
-theme_set(theme_grey(base_size = 16))
 library(emo)
 ```
 class: inverse, center, middle
@@ -124,4 +122,3 @@ background-position: 9% 15%
 `r icon::fa("envelope")`**dafealos@gmail.com**  
 `r icon::fa("home")`[**https://dafealos.netlify.app**](https://dafealos.netlify.app)  
 `r icon::fa_twitter()`[**@dafealos**](https://twitter.com/dafealos)  
-`r icon::fa_github()`[**@dafealos**](https://github.com/dafealos)
