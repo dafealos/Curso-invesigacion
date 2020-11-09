@@ -95,3 +95,28 @@ class: inverse, center, middle
 # Vamos a R
 
 ![Bye](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2Fl2JhBpEAO8wxCE1Fe%2Fgiphy.gif&f=1&nofb=1)
+
+---
+
+# Video
+
+<iframe width="1300" height="530" src="https://www.youtube.com/embed/CwzjlmBLfrQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+---
+
+class: center, middle, inverse
+background-size: 55px
+background-position: 9% 15%
+
+# Gracias
+
+### Esta presentacion ha sido creada con [xaringan](https://github.com/yihui/xaringan) y [R Markdown](https://rmarkdown.rstudio.com/)
+
+
+
+
+`r icon::fa("envelope")`**dafealos@gmail.com**  
+`r icon::fa("home")`[**https://dafealos.netlify.app**](https://dafealos.netlify.app)  
+`r icon::fa_twitter()`[**@dafealos**](https://twitter.com/dafealos)  
+`r icon::fa_github()`[**@dafealos**](https://github.com/dafealos)
